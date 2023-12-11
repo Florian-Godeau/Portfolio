@@ -1,0 +1,13 @@
+#skills {
+    position: relative;
+    background-image: url('../../assets/pixelBackgroundblack.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.logos-list {
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    justify-content: center;
+}

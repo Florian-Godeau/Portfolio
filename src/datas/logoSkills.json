@@ -1,42 +1,42 @@
 [
     {
-        "id": 1,
-        "image": "/src/assets/logohtml.png",
+        "id": 0,
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logohtml.png",
         "text": "HTML"
     },
     {
-        "id": 2,
-        "image": "../../assets/logocss.png",
+        "id": 1,
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logocss.png",
         "text": "CSS"
     },
     {
-        "id": 3,
-        "image": "../../assets/logocss.png",
+        "id": 2,
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logojs.png",
         "text": "JavaScript"
     },
     {
-        "id": 4,
-        "image": "../../assets/logocss.png",
+        "id": 3,
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/logoreact.png",
         "text": "React"
     },
     {
-        "id": 5,
-        "image": "../../assets/logocss.png",
+        "id": 4,
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/reduxlogoround.png",
         "text": "Redux"
     },
     {
-        "id": 6,
-        "image": "../../assets/logocss.png",
+        "id": 5,
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/sasslogo.png",
         "text": "Sass"
     },
     {
-        "id": 7,
-        "image": "../../assets/logocss.png",
+        "id": 6,
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/figma_logo_icon_147289.png",
         "text": "Figma"
     },
     {
-        "id": 8,
-        "image": "../../assets/logocss.png",
+        "id": 7,
+        "image": "https://cdn.jsdelivr.net/gh/Florian-Godeau/portfolio@master/src/assets/seologo.png",
         "text": "SEO"
     }
 ]

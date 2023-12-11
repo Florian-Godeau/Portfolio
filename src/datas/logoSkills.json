@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "image": "/src/assets/logohtml.png",
+        "text": "HTML"
+    },
+    {
+        "id": 2,
+        "image": "../../assets/logocss.png",
+        "text": "CSS"
+    },
+    {
+        "id": 3,
+        "image": "../../assets/logocss.png",
+        "text": "JavaScript"
+    },
+    {
+        "id": 4,
+        "image": "../../assets/logocss.png",
+        "text": "React"
+    },
+    {
+        "id": 5,
+        "image": "../../assets/logocss.png",
+        "text": "Redux"
+    },
+    {
+        "id": 6,
+        "image": "../../assets/logocss.png",
+        "text": "Sass"
+    },
+    {
+        "id": 7,
+        "image": "../../assets/logocss.png",
+        "text": "Figma"
+    },
+    {
+        "id": 8,
+        "image": "../../assets/logocss.png",
+        "text": "SEO"
+    }
+]

@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import About from "../components/About";
+import Skills from "../components/Skills";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
 
@@ -8,6 +9,7 @@ function Home() {
         <>
             <Header />
             <About />
+            <Skills />
             <Contact />
             <Footer />
         </>

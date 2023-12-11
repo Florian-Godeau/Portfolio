@@ -1,0 +1,18 @@
+.footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__textLeft {
+        color: white;
+    }
+
+    &__textRight {
+        color: white;
+    }
+
+    &__pixelHeart {
+        height: 30px;
+    }
+}

@@ -1,0 +1,19 @@
+.nav {
+
+    &__content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        &__name {
+            color: white;
+        }
+
+        &__list {
+            color: white;
+            display: flex;
+            flex-direction: row;
+            padding: 0 5px 0 5px;
+        }
+    }
+}

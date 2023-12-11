@@ -1,0 +1,32 @@
+.about {
+    position: relative;
+    background-image: url('../../assets/pixelBackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+
+    // Style pour l'overlay
+    &__overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.2); // Noir semi-transparent
+        z-index: 1;
+    }
+
+    &__content {
+        position: relative; // S'assurer que le contenu est au-dessus de l'overlay
+        z-index: 2;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &__photo {
+            &__me {
+                height: 350px;
+                border-radius: 10px;
+            }
+        }
+    }
+}

@@ -7,14 +7,14 @@ export default function About() {
             <div className="about__overlay"></div>
             <h2>À propos de moi</h2>
             <div className="about__content">
-                <div className="about__content__photo">
+                <div className="about__content__photo" data-aos="fade-right">
                     <img
                         className="about__content__photo__me"
                         src={Me}
                         alt="Florian Godeau"
                     />
                 </div>
-                <div className="about__content__text">
+                <div className="about__content__text" data-aos="fade-left">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed interdum vulputate urna, 
                         at bibendum sem tempus ut. Cras euismod mi et efficitur fringilla. 

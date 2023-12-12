@@ -1,16 +1,34 @@
-.card {
-    /* Styles pour la carte */
-    margin: 10px;
+.card-front, .card-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    width: 100px; 
+    height: 100px;
+    backface-visibility: hidden;
+    transform-origin: center;
+}
+
+.card-front {
+    /* Styles pour le devant de la carte (l'image) */
+}
+
+.card-back {
+    /* Styles pour le dos de la carte (le texte) */
+    background-color: #f8f8f8;
+    color: #333;
 }
 
 .card-image {
-    /* Styles pour l'image */
-    width: 100px; /* Ajustez selon vos besoins */
+    width: 100%; 
     height: auto;
 }
 
 .card-text {
-    /* Styles pour le texte */
     margin-top: 10px;
 }
+
+.react-card-flip {
+    width: 100px;
+    height: 100px;
+  }

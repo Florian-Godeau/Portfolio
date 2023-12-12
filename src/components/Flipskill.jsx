@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 
-function FlipCard({ image, text }) {
+function FlipCard({ imageFront, imageBack }) {
     const [isFlipped, setIsFlipped] = useState(false);
 
     const handleClick = () => {
@@ -11,11 +11,11 @@ function FlipCard({ image, text }) {
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
             <div className="card-front" onClick={handleClick}>
-                <img src={image} alt="Logo" className="card-image" />
+                <img src={imageFront} alt="Logo Front" className="card-image" />
             </div>
 
             <div className="card-back" onClick={handleClick}>
-                <p className="card-text">{text}</p>
+                <img src={imageBack} alt="Logo Back" className="card-image" />
             </div>
         </ReactCardFlip>
     );

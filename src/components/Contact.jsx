@@ -17,16 +17,19 @@ export default function Contact() {
   };
 
   return (
-    <div className="container">
-      <form ref={form} onSubmit={sendEmail} className="form">
-        <label>Name</label>
-        <input type="text" name="name" />
-        <label>Email</label>
-        <input type="email" name="email" />
-        <label>Message</label>
-        <textarea name="message" />
-        <button type="submit">Envoyer</button>
-      </form>
-    </div>
+    <section id="contact">
+      <h2>Me contacter</h2>
+      <div className="container">
+        <form ref={form} onSubmit={sendEmail} className="form">
+          <label>Name</label>
+          <input type="text" name="name" />
+          <label>Email</label>
+          <input type="email" name="email" />
+          <label>Message</label>
+          <textarea name="message" />
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+    </section>
   );
 };

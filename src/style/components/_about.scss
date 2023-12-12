@@ -3,6 +3,7 @@
     background-image: url('../../assets/pixelBackground.jpg');
     background-size: cover;
     background-attachment: fixed;
+    padding: 80px 0;
 
     // Style pour l'overlay
     &__overlay {
@@ -26,6 +27,7 @@
             &__me {
                 height: 350px;
                 border-radius: 10px;
+                box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
             }
         }
     }

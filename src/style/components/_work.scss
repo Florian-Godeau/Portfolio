@@ -1,0 +1,27 @@
+#works {
+    background-image: url('../../assets/pixelBackground.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 80px 0;
+    position: relative;
+}
+
+.works__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.work-list {
+    margin: 80px;
+    display: grid;
+    row-gap: 50px;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2;
+    grid-template-columns: repeat(3,auto);
+}

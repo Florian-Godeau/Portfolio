@@ -10,7 +10,7 @@ function FlipCard({ imageFront, imageBack }) {
 
     return (
         <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-            <div className="card-front" onClick={handleClick}>
+            <div className="card-front" data-aos="flip-right" onClick={handleClick}>
                 <img src={imageFront} alt="Logo Front" className="card-image" />
             </div>
 

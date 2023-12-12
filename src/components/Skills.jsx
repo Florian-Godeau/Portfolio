@@ -6,7 +6,7 @@ function LogosList() {
   return (
     <section id='skills'>
         <h2>Compétences</h2>
-        <div className="logos-list" data-aos="zoom-in">
+        <div className="logos-list">
         {logosData.map((logo) => (
             <Flipskill key={logo.id} imageFront={logo.imageFront} imageBack={logo.imageBack} />
         ))}

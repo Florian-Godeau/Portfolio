@@ -36,3 +36,77 @@
         }
     }
 }
+
+.project-modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-close-button {
+    color: #000000;
+    font-size: large;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+
+.modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__image {
+        width: 500px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    }
+
+    &__summary {
+        text-align: center;
+    }
+
+    &__info {
+        text-align: center;
+    }
+
+    &__techList {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px 0 20px 0;
+
+        &__name {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19.96px;
+            height: 25px;
+            padding: 0px 10px;
+            border-radius: 10px;
+            background-color: black;
+        }
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: row;
+        font-size: 40px;
+
+        &__icon {
+            padding-right: 20px;
+            color: black;
+            transition: transform 0.3s ease;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+

@@ -27,7 +27,7 @@ export default function Contact() {
           <input type="email" name="email" />
           <label>Message</label>
           <textarea name="message" />
-          <button type="submit">Envoyer</button>
+          <button className="close-button" type="submit">Envoyer</button>
         </form>
       </div>
     </section>

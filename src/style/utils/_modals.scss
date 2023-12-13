@@ -1,0 +1,41 @@
+.ReactModal__Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); // Assombrir l'arrière-plan
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10; // S'assurer que l'overlay est au-dessus de tout
+}
+
+.ReactModal__Content {
+    position: relative;
+    width: 50%;  // ou une autre largeur selon votre choix
+    max-width: 600px; // ou une limite max selon votre choix
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(0); // Commencer avec un effet de scale
+    transition: transform 150ms ease-out;
+    z-index: 11; // Au-dessus de l'overlay
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.ReactModal__Overlay--after-open {
+    .ReactModal__Content {
+        transform: scale(1); // Échelle à la normale après ouverture
+    }
+}
+
+.ReactModal__Overlay--before-close {
+    .ReactModal__Content {
+        transform: scale(0); // Réduire la modal avant fermeture
+    }
+}

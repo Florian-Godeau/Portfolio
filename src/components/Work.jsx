@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCards from './ProjectCards';
+import ProjectCard from './ProjectCards';
 import projectsData from '../datas/projects.json';
 
 function Work() {
@@ -9,7 +9,7 @@ function Work() {
         <h2>Mes projets</h2>
         <div className="work-list">
         {projectsData.map(project => (
-            <ProjectCards key={project.id} title={project.title} picture={project.picture} />
+            <ProjectCard key={project.id} project={project} />
         ))}
         </div>
     </section>

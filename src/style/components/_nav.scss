@@ -1,4 +1,22 @@
 .nav {
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    right: 0;        
+    z-index: 10;     
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 1.5rem;
+    background-color: black;
+
+    &.show {
+        opacity: 1;
+    }
+
+    a {
+        color: white;
+        text-decoration: none; 
+    }
 
     &__content {
         display: flex;

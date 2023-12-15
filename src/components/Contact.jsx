@@ -21,12 +21,9 @@ export default function Contact() {
       <h2>Me contacter</h2>
       <div className="container">
         <form ref={form} onSubmit={sendEmail} className="form">
-          <label>Name</label>
-          <input type="text" name="name" />
-          <label>Email</label>
-          <input type="email" name="email" />
-          <label>Message</label>
-          <textarea name="message" />
+          <input type="text" name="name" placeholder="Nom" required/>
+          <input type="email" name="email" placeholder="Email" required/>
+          <textarea name="message" placeholder="Message" required />
           <button className="close-button" type="submit">Envoyer</button>
         </form>
       </div>

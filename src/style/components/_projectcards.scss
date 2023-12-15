@@ -42,13 +42,21 @@
     flex-direction: column;
 }
 
-.modal-close-button {
+.modal-close {
     color: #000000;
     font-size: large;
-    cursor: pointer;
     display: flex;
     justify-content: flex-end;
     padding-bottom: 20px;
+
+    &__cross {
+        cursor: pointer;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
 }
 
 .modalContent {

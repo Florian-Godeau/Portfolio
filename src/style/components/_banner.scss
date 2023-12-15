@@ -1,5 +1,6 @@
 .banner {
     overflow: visible;
+    padding-top: 20vh;
 
     &__backgroundLayer {
         position: fixed;
@@ -13,7 +14,7 @@
 
     &__content {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
 

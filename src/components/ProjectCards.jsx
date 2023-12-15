@@ -27,9 +27,11 @@ function ProjectCard({ project }) {
                 className="project-modal"
                 overlayClassName="project-modal-overlay"
             >
-                <i onClick={closeModal} className="fa-solid fa-xmark modal-close-button" aria-hidden="true"></i>
+                <div className='modal-close'>
+                    <i onClick={closeModal} className="fa-solid fa-xmark modal-close__cross" aria-hidden="true"></i>
+                </div>
                 <div className='modalContent'>
-                    <img src={project.picture} alt={project.title} className="modalContent__image" />
+                    <img src={project.image} alt={project.title} className="modalContent__image" />
                     <h3 className='modalContent__title'>{project.title}</h3>
                     <p className='modalContent__summary'>{project.description}</p>
                     <p className='modalContent__info'>{project.info}</p>
